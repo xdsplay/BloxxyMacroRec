@@ -2,11 +2,6 @@
 
 Complete automation tool for Windows with smooth mouse movement and clean UI.
 
-## Quick Build
-
-1. Copy `macro_plus.py` from artifact to this folder
-2. Double-click `build.bat`
-3. Done! Executable in `dist/MacroPlus.exe`
 
 ## Features
 
@@ -17,15 +12,7 @@ Complete automation tool for Windows with smooth mouse movement and clean UI.
 ✅ Variable speed (0.1x - 3.0x)
 ✅ Infinite repeat mode
 ✅ Auto-save settings
-✅ Professional installer
 
-## Files
-
-- `macro_plus.py` - Main application (copy from artifact)
-- `build.bat` - One-click build
-- `setup.py` - PyInstaller config
-- `installer_script.iss` - Inno Setup installer
-- `requirements.txt` - Dependencies
 
 ## Usage
 

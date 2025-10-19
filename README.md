@@ -1,50 +1,54 @@
-BloxxyMacro - Python Macro Recorder
+# Macro+ - Professional Macro Recorder
 
-LINK TO PROGRAM:
-https://drive.google.com/drive/folders/1VAhKQxm8xf7ZGLnJ4BVxOsZiRFPo1arF
+Complete automation tool for Windows with smooth mouse movement and clean UI.
 
-Download the exe.win file
+## Quick Build
 
+1. Copy `macro_plus.py` from artifact to this folder
+2. Double-click `build.bat`
+3. Done! Executable in `dist/MacroPlus.exe`
 
-BloxxyMacro is a Python-based macro recorder that allows users to record and replay mouse and keyboard actions. It's a versatile automation tool designed to simplify repetitive tasks by creating and executing macros.
+## Features
 
-Features:
-- Record mouse movements, clicks, and keyboard keystrokes.
-- Save recorded actions and replay them at any time.
-- Adjust replay speed to match your requirements.
-- Set the number of times the macro should replay.
-- Target specific applications for macro execution.
+✅ 60 FPS smooth mouse recording
+✅ 5-step interpolation playback
+✅ Clean TinyTask-inspired UI
+✅ Global hotkeys (F9/F10/F11)
+✅ Variable speed (0.1x - 3.0x)
+✅ Infinite repeat mode
+✅ Auto-save settings
+✅ Professional installer
 
-Usage:
-1. Run BloxxyMacro and select the target application for macro execution.
-2. Click the "Record" button to start recording your actions.
-3. Perform the actions you want to include in the macro.
-4. Click the "Stop" button to finish recording.
-5. Use the "Replay" button to execute the recorded macro.
-6. Adjust the replay count and speed as needed.
+## Files
 
-Requirements:
-- Python 3.x
-- tkinter
-- PIL (Python Imaging Library)
-- mouse
-- keyboard
-- time
-- winsound
+- `macro_plus.py` - Main application (copy from artifact)
+- `build.bat` - One-click build
+- `setup.py` - PyInstaller config
+- `installer_script.iss` - Inno Setup installer
+- `requirements.txt` - Dependencies
 
-License:
-BloxxyMacro is provided under the MIT License. Feel free to use, modify, and distribute it according to the terms of the license.
+## Usage
 
-Note: This version of BloxxyMacro does not contain the original Python source code and is distributed as a standalone executable to protect intellectual property.
+### Recording
+1. Press F9
+2. Perform actions
+3. Press F9 to stop
+4. Enter name and Save
 
-Feedback and Contributions:
-Feedback, bug reports, and contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on GitHub.
+### Playing
+1. Enter name and Load
+2. Press F10
+3. Watch smooth playback!
 
-Disclaimer:
-BloxxyMacro is provided as-is, and the author makes no warranties or guarantees regarding its functionality or performance. Use it responsibly and at your own risk.
+## Installation Locations
 
-Download:
-You can download the latest version of BloxxyMacro from the "Releases" section on this GitHub repository.
+**Program:** `C:\Program Files\Macro+\`
+**Data:** `C:\Users\[Name]\AppData\Local\MacroPlus\`
 
-Happy automating!
+## License
 
+MIT License - See LICENSE.txt
+
+---
+
+**Read START_HERE.md for complete instructions!**

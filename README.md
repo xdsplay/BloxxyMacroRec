@@ -45,10 +45,4 @@ Complete automation tool for Windows with smooth mouse movement and clean UI.
 **Program:** `C:\Program Files\Macro+\`
 **Data:** `C:\Users\[Name]\AppData\Local\MacroPlus\`
 
-## License
-
-MIT License - See LICENSE.txt
-
----
-
-**Read START_HERE.md for complete instructions!**
+Completely free to fork or modify!
